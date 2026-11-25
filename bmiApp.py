@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.markdown("# :red [Calculate your Body Mass Index BMI]")
-st.write("กรอกข้อมูลน้ำหนักเเละส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
+st.write("Enter your weight and height to check your BMI and health")
 
 weight = st.number_input("Enter your weight (kilogram):", min_value=0, value=0)
 height = st.number_input("Enter your height (centimeter):", min_value=0, value=0)
