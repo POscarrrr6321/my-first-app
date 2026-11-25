@@ -4,7 +4,7 @@ st.markdown("# :red [Calculate your Body Mass Index BMI]")
 st.write("Enter your weight and height to check your BMI and health")
 
 weight = st.number_input("Enter your weight (kilogram):", min_value=0, value=0)
-height = st.number_input("Enter your height (centimeter):", min_value=0, value=0)
+height_cm = st.number_input("Enter your height (centimeter):", min_value=0, value=0)
 
 if st.button("Calculate BMI"):
   height_m = height_cm / 100
